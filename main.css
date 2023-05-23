@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #008348;
+    color: whitesmoke;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'Bungee', cursive;
+    font-weight: normal
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto1{
+    margin-right: 32px;
+    height: 400px;
+}
+
+.logos-list img{
+    height: 70px;
+}
+
+.logos-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0px;
+    color: #008348;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
